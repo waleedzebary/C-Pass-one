@@ -1,0 +1,23 @@
+mov cx,6
+loop2: ; Loop 2 outer loop
+push cx ; you have to push the ex and pop it out before loop instruction to prevent the cx being over written by the inner loop cx
+mov cx,10
+loop1:  ; inner loop
+mov ah, 02h ; Dos function 02h to Write character to STDOUT
+mov dl, ‘*’ ; character to write
+int 21h ; dos interrupt 21h
+loop loop1
+; Code to print in next line
+mov ah, 82h
+mov d1, Bah ; carriage return 
+int 21h
+mov ah, 02h
+mov d1, 0dh ; line feed
+int 21h
+pop cx 
+loop loop2
+mov ah, 4ch ; Dos function to terminate the return to dos
+mov a1,00 ; return code
+int2h ; dos interrupt 21
+endp
+end main

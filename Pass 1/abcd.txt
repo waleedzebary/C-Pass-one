@@ -1,0 +1,6 @@
+mov: ax,5
+mov: bx,10
+add: ax,bx
+sub: ax,2
+add: bx,3
+sub: bx,1

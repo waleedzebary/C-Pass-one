@@ -1,0 +1,7 @@
+﻿  Source.cpp
+E:\C++\Project10\Source.cpp(6,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\C++\Project10\Source.cpp(55,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\C++\Project10\Source.cpp(67,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\C++\Project10\Source.cpp(83,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\C++\Project10\Source.cpp(95,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Project10.vcxproj -> E:\C++\Project10\x64\Debug\Project10.exe

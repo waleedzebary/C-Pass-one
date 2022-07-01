@@ -1,0 +1,7 @@
+main: mov ax,bx
+p1: add al,ah;software
+p2: sub cx,[]
+p3: add ah,[];system
+p4: add ax,0010h
+p5: mul ch,1001h
+p6: div end,end
