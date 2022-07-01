@@ -1,0 +1,5 @@
+﻿  project 4.cpp
+E:\C++\Project4\Project4\project 4.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\C++\Project4\Project4\project 4.cpp(65,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\C++\Project4\Project4\project 4.cpp(66,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Project4.vcxproj -> E:\C++\Project4\x64\Debug\Project4.exe
